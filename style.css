@@ -541,8 +541,8 @@ section {
 /* Contact section */
 .contact {
     background: var(--second-bg-color);
-    align-items: center;
     text-align: center;
+    margin-bottom: 35px;
 }
 .contact h2 {
     margin-bottom: 2rem;
@@ -551,6 +551,7 @@ section {
     max-width: 70rem;
     margin: 1rem auto;
     margin-bottom: 3rem;
+    text-align: center;
 }
 .contact .form .input-box {
     display: flex;
@@ -645,183 +646,5 @@ section {
     }
     .service-container {
         grid-template-columns: repeat(1,1fr);
-    }
-}
-
-/* GameDev page */
-
-/* Home section */
-.home-Game {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    grid: 1rem;
-}
-.home-content-Game {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 3rem;
-}
-.home-img-Game {
-    border-radius: 50%;
-}
-.home-img-Game img {
-    position: relative;
-    border-radius: 50%;
-    top: 3rem;
-    width: 29vw;
-    box-shadow: 0 0 15px var(--main-color),
-                0 0 25px var(--main-color);
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-.home-img-Game img:hover {
-    box-shadow: 0 0 50px var(--main-color),
-                0 0 100px var(--main-color);
-}
-.home-content-Game h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-top: 1.5rem;
-    line-height: 1;
-}
-.home-content-Game h3 {
-    position: relative;
-    font-size: 3.5rem;
-    color: #252839;
-    -webkit-text-stroke: 0.3vw #383d52;
-    text-transform: uppercase;
-}
-.home-content-Game h3::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #01fe87;
-    -webkit-text-stroke: 0vw #383d52;
-    border-right: 2px solid #01fe87;
-    overflow: hidden;
-    animation: animate 6s linear infinite;
-}
-@keyframes animate {
-    0%, 10%, 100% {
-        width: 0;
-    }
-    70%, 90% {
-        width: 100%;
-    }
-}
-.home-content-Game p {
-    font-size: 1.9rem;
-    font-weight: 500;
-    max-width: 1000px;
-}
-.home-content-Game .social-icon-Game a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-    color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
-    transition: 0.3s ease;
-}
-.home-content-Game .social-icon-Game a:hover {
-    transform: scale(1.3)translateY(-5px);
-    text-shadow: 0 0 25px var(--main-color);
-    
-} 
-.btn-Game {
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
-    font-size: 1.6rem;
-    border-radius: 4rem;
-    color: black;
-    border: 2px solid transparent;
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-}
-.btn-Game:hover {
-    transform: scale(1.05);
-    background: transparent;
-    color: white;
-    border: 0.5px solid white;
-}
-@media(max-width:895px) {
-    .home-Game {
-        flex-direction: column;
-        margin: 5rem 4rem;
-    }
-    .home-content-Game h1 {
-        font-size: 2.9rem;
-        margin-top: 3rem;
-    }
-    .home-content-Game h3 {
-        font-size: 2.6rem;
-    }
-    .home-content-Game p {
-        font-size: 1.6rem;
-        max-width: 600px;
-        margin: 0 auto;
-    }
-    .home-img-Game img {
-        width: 59vw;
-        margin: -2rem;
-    }
-}
-section {
-    min-height: 110vh;
-}
-/* Services Section */
-.heading-Game {
-    font-size: 4rem;
-    text-align: center;
-}
-.services-Game {
-    background: var(--second-bg-color);
-}
-.services-Game h2 {
-    text-decoration: underline;
-}
-.services-Game nav h5 {
-    text-align: center;
-    font-size: 2rem;
-    margin-right: 20%;
-    margin-top: 40px;
-    min-height: 50px;
-}
-.services-Game nav p {
-    font-size: 1.5rem;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-@media (max-width:895px) {
-    section {
-        min-height: 1%;
-    }
-    .heading-Game {
-        font-size: 3rem;
-        text-align: center;
-    }
-    .services-Game nav h5 {
-        text-align: center;
-        font-size: 1.6rem;
-        margin-right: 20%;
-        margin-top: 40px;
-        min-height: 50px;
-    }
-    .services-Game nav p {
-        font-size: 1.5rem;
-        margin-left: 5%;
-        margin-right: 5%;
     }
 }
