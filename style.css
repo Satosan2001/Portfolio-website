@@ -542,7 +542,6 @@ section {
 .contact {
     background: var(--second-bg-color);
     text-align: center;
-    margin-bottom: 35px;
 }
 .contact h2 {
     margin-bottom: 2rem;
@@ -572,6 +571,7 @@ section {
 }
 .contact form .btn {
     margin-top: 2rem;
+    margin-bottom: 35px;
 }
 
 /* Footer section */
