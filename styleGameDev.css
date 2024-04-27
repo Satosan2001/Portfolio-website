@@ -325,21 +325,20 @@ section {
     width: 47.5%; 
     height: 300px; 
     float: left; 
-    padding-right: 3px;
+    margin-right: 5%;
     margin-bottom: 3%;
 }
 #java2 {
     width: 47.5%; 
     height: 300px; 
     float: left;
-    margin-right: 5%;
     margin-bottom: 3%;
 }
 .project-1 .javades {
     font-size: 2rem;
     padding: 2%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 25%;
+    margin-left: 25%;
     text-align: center;
 }
 .project-1 .line {
@@ -389,8 +388,8 @@ section {
 
 .project-2 .title-ue {
     font-size: 2.5rem;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 25%;
+    margin-left: 22%;
     text-align: left;
     padding-left: 30px;
 }
