@@ -325,13 +325,14 @@ section {
     width: 47.5%; 
     height: 300px; 
     float: left; 
-    margin-right: 5%;
+    padding-right: 3px;
     margin-bottom: 3%;
 }
 #java2 {
     width: 47.5%; 
     height: 300px; 
     float: left;
+    margin-right: 5%;
     margin-bottom: 3%;
 }
 .project-1 .javades {
