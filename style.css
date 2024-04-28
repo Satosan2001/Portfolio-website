@@ -574,6 +574,42 @@ section {
     margin-bottom: 35px;
 }
 
+/* Thank you Page*/
+.thanks {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 12rem;
+}
+@media (max-width:1600px) {
+    .thanks {
+        text-align: center;
+        padding-top: 20%;
+        font-size: 12rem;
+    }
+}
+@media (max-width:1200px) {
+    .thanks {
+        text-align: center;
+        padding-top: 25%;
+        font-size: 12rem;
+    }
+}
+@media (max-width:800px) {
+    .thanks {
+        text-align: center;
+        padding-top: 40%;
+        font-size: 12rem;
+    }
+}
+@media (max-width:600px) {
+    .thanks {
+        text-align: center;
+        padding-top: 50%;
+        font-size: 12rem;
+    }
+}
+
+
 /* Footer section */
 .footer {
     position: relative;
