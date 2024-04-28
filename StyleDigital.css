@@ -344,9 +344,17 @@ html::-webkit-scrollbar-thumb {
     display: flex;
 }
 .image-container img {
-    width: 60%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
+}
+.image-container img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgg1 {
+    width: 900px;
 }
 .image-container .imgg {
     position: relative;
@@ -354,19 +362,133 @@ html::-webkit-scrollbar-thumb {
 .image-container .description {
     position: relative;
 }
-@media(max-width:1200px) {
+.titleKuroko {
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: -30px;
+}
+#imgg2 {
+    width: 700px;
+}
+
+@media(max-width:1180px) {
     .image-container {
         padding-left: 3%;
         align-items: center;
         text-align: center;
         max-width: 1500px;
-        height: 700px;
+        height: fit-content;
         margin: 32px auto;
         display: block;
+    }
+    .titleKuroko {
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: -30px;
     }
     .image-container .imgg {
         position: relative;
         padding-bottom: 30px;
     }
+    .imgg1 {
+        width: 100%;
+    }
+    #imgg2 {
+        width: 100%;
+    }
+}
+/* Contact section */
+.contact {
+    padding-top: 10px;
+    background: var(--second-bg-color);
+    text-align: center;
+}
+.contact h2 {
+    margin-bottom: 2rem;
+}
+.contact .form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.contact .form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: white;
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--main-color);
+    margin: 1rem 0;
+    resize: none;
+}
+.contact form .btn {
+    margin-top: 2rem;
+    margin-bottom: 35px;
+}
 
+
+.back-top,
+.back-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+.back-home {
+    margin-bottom: 3rem;
+}
+.go-down {
+    margin-top: 1rem;
+}
+/* Footer section */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40PX 0;
+    background-color: var(--main-color);
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--text-color);
+}
+.footer .social a {
+    font-size: 25px;
+    color: black;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+.footer .social a:hover {
+    transform: scale(1.2)translateY(-5px);
+    text-shadow: 0 0 25px black;
+}
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
 }
