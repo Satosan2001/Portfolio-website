@@ -81,7 +81,7 @@ html::-webkit-scrollbar-thumb {
     color: var(--main-color);
     display: none;
 }
-@media(max-width:768px) {
+@media(max-width:797px) {
     #menu-icon {
         display: block;
     }
