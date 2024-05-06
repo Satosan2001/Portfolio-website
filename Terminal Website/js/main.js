@@ -90,9 +90,6 @@ function commander(cmd) {
       break;
     case "hi":
       addLine("Oh Hello my Love❤️", "color2", 80);
-      setTimeout(function() {
-        window.open('');
-      }, 1000); 
       break;
     case "admin":
       addLine("Oh no, you're not admin...", "color2", 80);
