@@ -22,7 +22,8 @@ whois = [
 
 whoami = [
   "<br>",
-  "The question 'Who am I?' is like checking the fridge for snacks: you're not always sure what you're looking for, but you can't help looking again and again.",
+  "The question 'Who am I?' is like checking the fridge for snacks: you're", 
+  "not always sure what you're looking for, but you can't help looking again and again.",
   "<br>"
 ];
 
