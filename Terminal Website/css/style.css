@@ -2,6 +2,7 @@ body {
    margin: 0;
    padding: 15px 20px;
    min-height: 99%;
+   font-size: 100%; /* Base font size */
    width: 100%;
    min-width: 550px;
    color: #519975;
@@ -9,6 +10,8 @@ body {
    font-family: cursor, monospace;
    overflow-x: hidden;
  }
+
+
  ::selection {
    color: #211830;
    background-color: #519975;
@@ -27,7 +30,7 @@ body {
  }
  /* Cursor Start */
  .cursor {
-   font-size: 12px;
+   font-size: .8rem;
    color: #73ABAD;
    background-color: #73ABAD;
    position: relative;
@@ -129,3 +132,12 @@ body {
  a:focus {
    outline: 0;
  }
+
+@media (max-width: 600px) {
+   body {
+      font-size: 60%;
+      max-width: fit-content;
+      width: 10%;
+      padding: 10px 5px;
+   }
+}
