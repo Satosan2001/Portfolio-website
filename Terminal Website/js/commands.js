@@ -10,13 +10,15 @@ var email = 'mailto:boussettahsallah@gmail.com';
 whois = [
   "<br>",
   "Hey, I'm Salah!👋",
-"I'm a software developer, game developer, and digital artist, currently diving deep into the world of full stack development.",
-"While I'm still a student, I'm also exploring the realms of game development, constantly weighing whether to",
-"pursue a future as a game developer, a full stack developer, or perhaps both.",
-"Each project I take on is an exciting opportunity to learn and grow—whether it’s building interactive websites,",
-"or designing games just for fun. You can check out some of my projects in the other sections of this site.",
-"As I navigate through the complexities of both web and game development, I document my progress and share my",
-"experiences, hoping to inspire and guide others who are on a similar path.",
+"I'm a software developer, game developer, and digital artist, currently diving",
+"deep into the world of full stack development. While I'm still a student,",
+"I'm also exploring the realms of game development, constantly weighing  whether",
+"to pursue a future as a game developer, a full stack developer, or perhaps both.",
+"Each project I take on is an exciting opportunity to learn and grow—whether", 
+"it’s building interactive websites, or designing games just for fun. You can",
+"check out some of my projects in the other sections of this site. As I navigate",
+"through the complexities of both web andgame development, I document my progress ",
+"and share my experiences, hoping to inspire and guide others who are on a similar path.",
 "Join me on this adventure as I blend the art of code with creativity, building everything my heart desires,",
 "right here on this terminal website.",
   "<br>"
@@ -24,7 +26,9 @@ whois = [
 
 whoami = [
   "<br>",
-  "The question 'Who am I?' is like checking the fridge for snacks: you're not always sure what you're looking for, but you can't help looking again and again.",
+  "The question 'Who am I?' is like checking the fridge",
+  "for snacks: you're not always sure what you're looking",
+  "for, but you can't help looking again and again.",
   "<br>"
 ];
 
