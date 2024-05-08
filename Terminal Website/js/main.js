@@ -91,9 +91,6 @@ function commander(cmd) {
       break;
     case "hi":
       addLine("Oh Hello my Love❤️", "color2", 80);
-      setTimeout(function() {
-        window.open('');
-      }, 1000); 
       break;
     case "admin":
       addLine("Oh no, you're not admin...", "color2", 80);
@@ -127,7 +124,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:boussettahsallah@gmail.com">boussettahsallah@gmail.com</a>...', "color2", 80);
+      addLine('Opening <a href="mailto:boussettahsallah@gmail.com">boussettahsallah@gmail.com</a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
