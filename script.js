@@ -42,3 +42,39 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+}
+
+let slideIndexSecond = 1;
+showSlidesSecond(slideIndexSecond);
+
+function plusSlidesSecond(n) {
+    showSlidesSecond(slideIndexSecond += n);
+}
+
+function showSlidesSecond(n) {
+    let i;
+    let slidesSecond = document.getElementsByClassName("mySlidesSecond");
+    if (n > slidesSecond.length) {slideIndexSecond = 1}
+    if (n < 1) {slideIndexSecond = slidesSecond.length}
+    for (i = 0; i < slidesSecond.length; i++) {
+        slidesSecond[i].style.display = "none";
+    }
+    slidesSecond[slideIndexSecond-1].style.display = "block";
+}
